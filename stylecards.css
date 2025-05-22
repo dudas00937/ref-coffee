@@ -1,0 +1,102 @@
+html {
+    background-color: #ed7b7b;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D2464Bff;
+    color: #FFFF;
+}
+
+html {
+    font-family: Inter, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+    color: #FFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    padding: 1.5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    font-family: "DM Serif Display", serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.menu{
+    display: flex;
+    gap: 1.5rem;
+}
+/* From Uiverse.io by kamehame-ha */ 
+.button {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    background-color: #ed7b7b;
+    outline: 3px #ed7b7b solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    margin-right: 16px;
+  }
+  
+  .button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .button svg path {
+    transition: 400ms;
+  }
+  
+  .button:hover {
+    background-color: transparent;
+  }
+  
+  .button:hover .text {
+    color: #ed7b7b;
+  }
+  
+  .button:hover svg path {
+    fill: #ed7b7b;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .navbar{
+    position: fixed;
+    background-color: #D2464Bff;
+    width: 100%;
+  }
+
+  .logo{
+    margin-left: 20px;
+  }
