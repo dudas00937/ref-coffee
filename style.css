@@ -7,7 +7,7 @@
 
 body {
     background-color: #D2464Bff;
-    color: #FFFF;
+    color:#fffbf4;
 }
 
 html {
@@ -16,7 +16,7 @@ html {
 }
 a {
     text-decoration: none;
-    color: #FFFF;
+    color:#FFF0D1;
 }
 
 ul {
@@ -39,6 +39,7 @@ nav {
     font-style: italic;
     font-size: 2rem;
     text-transform: uppercase;
+    color: #FFF0D1;
 }
 .menu{
     display: flex;
@@ -103,7 +104,7 @@ nav {
     margin-top: 50px;
 }
 .principal{
-    background-color: #ed7b7b;
+    background-color: #FFF0D1;
 }
 
 .hero{
@@ -117,6 +118,7 @@ nav {
     padding: 0rem 1rem;
     margin: auto;
     overflow: clip;
+    background-color: #FFF0D1;
 }
 
 .hero-conteudo{
@@ -127,6 +129,7 @@ nav {
     font-optical-sizing: auto;
     font-style: normal;
     align-items: flex-start;
+    color: #4e3928;
 }
 .encontre{
   font-family: "Bodoni Moda SC", serif;
@@ -179,7 +182,7 @@ hr {
 }
 .receitas-rosa{
     text-transform: uppercase;
-    color: bisque;
+    color: #FFF0D1;
     font-size: 2.5rem;
     font-family: "Bodoni Moda SC", serif;
     font-optical-sizing: auto;
@@ -191,6 +194,7 @@ hr {
     font-family: "Bodoni Moda SC", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    color: #FFF0D1;
 }
 
 .cards{
