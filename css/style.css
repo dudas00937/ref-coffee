@@ -98,12 +98,14 @@ nav {
   .logo{
     margin-left: 20px;
   }
-.main {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-}
-.principal{
+  
+  .main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+  }
+
+  .principal{
     background-color: #FFF0D1;
 }
 
