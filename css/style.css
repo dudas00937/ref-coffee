@@ -158,11 +158,22 @@ hr {
   font-style: normal;
     
 }
+
+.faixa-carrossel {
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
 .hero-imagens{
-    max-width: 48%;
     column-count: 4;
     column-gap: 1rem;
     margin: -1rem;
+}
+
+.hero-imagens > figure {
+  break-inside: avoid;
+  margin-bottom: 1rem;
 }
 
 .hero-imagens > figure > img {
